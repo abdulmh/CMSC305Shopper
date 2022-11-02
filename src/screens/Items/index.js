@@ -54,21 +54,21 @@ const ItemsScreen = props => {
               [
                 {
                id: 1
-               name: Hershey Kisses
-               price: 4.99
-               quantity: 2
+               name: Clothes
+               store: Target
+               date: 2022-10-13
                 }
                 {
                id: 2
-               name: T-shirt
-               price: 4.99
-               quantity: 2
+               name: Candy
+               store: Giant
+               date: 2022-05-04
                 }
                 {
                id: 3
-               name: Bread
-               price: 4.99
-               quantity: 2
+               name: Grocery
+               store: ShopRite
+               date: 2022-07-08
                 }
               ]
               */
