@@ -123,12 +123,12 @@ module.exports = {
         });
     },
      // declare function that will insert a row into the lists table
-     addListItem: async function (list_id,item_id) {
+     addListItem: async function (list_id, item_id) {
         // declare a transaction that will execute an SQL statement
         (await shopperDB).transaction(txn => {
             // execute the SQL
             txn.executeSql(
-                `INSERT INTO ${listItemsTableName} (list_id,item_id) VALUES (${list_id}, ${item_id})`,
+                `INSERT INTO ${listItemsTableName} (list_id, item_id) VALUES (${list_id}, ${item_id})`,
                 // arguments when using SQL prepared statements
                 [],
                 // callback function to handle results of SQL query

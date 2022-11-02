@@ -85,12 +85,13 @@ const ExistingListScreen = props => {
         );
     }
     const onAddItem = () => {
-            
-
+        // this line sends all data from the list items
+        navigation.navigate('Add List Items', {post: post});
     }
     const onViewList = () => {
-            
-
+        // the post variable contains all the data in 
+        // the list including the id, name, store, and date
+        navigation.navigate('View List Items', {post: post});
     }
 
   return (
