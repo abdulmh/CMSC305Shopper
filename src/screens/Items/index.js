@@ -55,21 +55,21 @@ const ItemsScreen = props => {
                 {
                id: 1
                name: Clothes
-               store: Target
-               date: 2022-10-13
-                }
+               price: 12.49
+               quantity: 2
+                },
                 {
                id: 2
                name: Candy
-               store: Giant
-               date: 2022-05-04
-                }
+               price: 2.99
+               quantity: 1
+                },
                 {
                id: 3
                name: Grocery
-               store: ShopRite
-               date: 2022-07-08
-                }
+               price: 7.99
+               quantity: 1
+                },
               ]
               */
 
