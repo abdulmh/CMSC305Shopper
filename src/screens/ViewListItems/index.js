@@ -53,7 +53,7 @@ const ViewListItemScreen = props => {
                   name: item.name,
                   price: item.price,
                   quantity: item.quantity,
-                  list_id: post.id, // this attribute contains the id of a list that the item is added to
+                  
                 });
               }
               // assign results array to items state variable
