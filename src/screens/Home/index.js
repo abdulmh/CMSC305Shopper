@@ -74,7 +74,7 @@ const HomeScreen = () => {
             {securityTextEntry === true ? (
               <Entypo name='eye' size={20} />
             ) : (
-              <Entypo name='eye-width-line' size={20} />
+              <Entypo name='eye-with-line' size={20} />
             )}
           </TouchableOpacity>
         </View>
