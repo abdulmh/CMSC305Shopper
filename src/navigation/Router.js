@@ -8,6 +8,7 @@ import ExistingListScreen from '../screens/ExistingList'
 import AddItemsScreen from '../screens/AddItem'
 import AddListItemScreen from '../screens/AddListItem';
 import ViewListItemScreen from '../screens/ViewListItems';
+import SignUpScreen from '../screens/SignUp';
 
 
 // every screen in the app hs to be in the router file
@@ -28,6 +29,7 @@ const Router = props => {
         <Stack.Screen name= {'Add Item'} component={AddItemsScreen}/>
         <Stack.Screen name= {'Add List Items'} component={AddListItemScreen}/>
         <Stack.Screen name= {'View List Items'} component={ViewListItemScreen}/>
+        <Stack.Screen name= {'Sign Up'} component={SignUpScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
